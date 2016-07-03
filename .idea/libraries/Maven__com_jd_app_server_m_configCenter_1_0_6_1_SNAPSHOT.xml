@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jd.app.server.m:configCenter:1.0.6.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/local/repo/com/jd/app/server/m/configCenter/1.0.6.1-SNAPSHOT/configCenter-1.0.6.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/local/repo/com/jd/app/server/m/configCenter/1.0.6.1-SNAPSHOT/configCenter-1.0.6.1-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/local/repo/com/jd/app/server/m/configCenter/1.0.6.1-SNAPSHOT/configCenter-1.0.6.1-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

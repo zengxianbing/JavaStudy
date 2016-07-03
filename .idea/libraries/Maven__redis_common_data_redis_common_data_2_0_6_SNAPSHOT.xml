@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: redis-common-data:redis-common-data:2.0.6-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/local/repo/redis-common-data/redis-common-data/2.0.6-SNAPSHOT/redis-common-data-2.0.6-20151014.150001-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/local/repo/redis-common-data/redis-common-data/2.0.6-SNAPSHOT/redis-common-data-2.0.6-20151014.150001-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/local/repo/redis-common-data/redis-common-data/2.0.6-SNAPSHOT/redis-common-data-2.0.6-20151014.150001-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

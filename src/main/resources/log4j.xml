@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="PASSPORT_EXCEPTIONLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/passport_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PASSPORT_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/passport_ordinary.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="REG_EXCEPTIONLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/reg_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="REG_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/reg_ordinary.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PASSPORTSOA_EXCEPTIONLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/passportsoa_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PASSPORTSOA_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/passportsoa_ordinary.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PAIPAI_EXCEPTIONLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/paipai_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="PAIPAI_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/paipai_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+        <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+    </layout>
+    </appender>
+    <appender name="JZT_EXCEPTIONLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/jzt_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="JZT_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/jzt_ordinary.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="XYZX_EXCEPTIONLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/xyzx_exception.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="XYZX_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/xyzx_ordinary.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="DAO_ERRORLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/dao_error.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="DAO_ORDINARYLOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/dao_ordinarylog.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="USER_EXECUTOR_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/user_executor.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="REDIS_ERROR_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/redis_error.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="REDIS_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/redis.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    <appender name="DB_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/db.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    
+    <appender name="MQ_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/mq.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+    
+ 	<appender name="INNER_SERVICE_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/inner_service.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="EXPORT_SERVICE_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/export_service.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="BACK_SOURCE_LOG" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/back_source.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} [%c]-[%p] %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="ALIAS_NAME_LOGIN" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="DatePattern" value="'.'yyyy-MM-dd"/>
+        <param name="Append" value="true"/>
+        <param name="file" value="/export/Logs/user-sdk.test.local/alias_name_login.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-d{yyyy-MM-dd HH:mm:ss} %m%n"/>
+        </layout>
+    </appender>
+
+    <category name="PASSPORT_EXCEPTIONLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="PASSPORT_EXCEPTIONLOG"/>
+    </category>
+    <category name="PASSPORT_ORDINARYLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="PASSPORT_ORDINARYLOG"/>
+    </category>
+    <category name="REG_EXCEPTIONLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="REG_EXCEPTIONLOG"/>
+    </category>
+    <category name="REG_ORDINARYLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="REG_ORDINARYLOG"/>
+    </category>
+    <category name="PASSPORTSOA_EXCEPTIONLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="PASSPORTSOA_EXCEPTIONLOG"/>
+    </category>
+    <category name="PASSPORTSOA_ORDINARYLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="PASSPORTSOA_ORDINARYLOG"/>
+    </category>
+    <category name="PAIPAI_EXCEPTIONLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="PAIPAI_EXCEPTIONLOG"/>
+    </category>
+    <category name="PAIPAI_ORDINARYLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="PAIPAI_ORDINARYLOG"/>
+    </category>
+    <category name="JZT_EXCEPTIONLOG" additivity="true">
+        <priority value="error" />
+        <appender-ref ref="JZT_EXCEPTIONLOG" />
+    </category>
+    <category name="JZT_ORDINARYLOG" additivity="true">
+        <priority value="error" />
+        <appender-ref ref="JZT_ORDINARYLOG" />
+    </category>
+    <category name="XYZX_EXCEPTIONLOG" additivity="true">
+        <priority value="error" />
+        <appender-ref ref="XYZX_EXCEPTIONLOG" />
+    </category>
+    <category name="XYZX_ORDINARYLOG" additivity="true">
+        <priority value="error" />
+        <appender-ref ref="XYZX_ORDINARYLOG" />
+    </category>
+    <category name="DAO_ERRORLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="DAO_ERRORLOG"/>
+    </category>
+    <category name="DAO_ORDINARYLOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="DAO_ORDINARYLOG"/>
+    </category>
+    <category name="USER_EXECUTOR_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="USER_EXECUTOR_LOG"/>
+    </category>
+    <category name="REDIS_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="REDIS_LOG"/>
+    </category>
+    <category name="REDIS_ERROR_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="REDIS_ERROR_LOG"/>
+    </category>
+    <category name="DB_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="DB_LOG"/>
+    </category>
+    
+    <category name="MQ_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="MQ_LOG"/>
+    </category>
+
+    <category name="INNER_SERVICE_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="INNER_SERVICE_LOG"/>
+    </category>
+
+    <category name="EXPORT_SERVICE_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="EXPORT_SERVICE_LOG"/>
+    </category>
+
+    <category name="BACK_SOURCE_LOG" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="BACK_SOURCE_LOG"/>
+    </category>
+
+    <category name="ALIAS_NAME_LOGIN" additivity="true">
+        <priority value="error"/>
+        <appender-ref ref="ALIAS_NAME_LOGIN"/>
+    </category>
+
+    <root>
+        <priority value="error"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+
+</log4j:configuration>

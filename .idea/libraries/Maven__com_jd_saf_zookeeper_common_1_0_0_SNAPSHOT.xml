@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.jd:saf-zookeeper-common:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/local/repo/com/jd/saf-zookeeper-common/1.0.0-SNAPSHOT/saf-zookeeper-common-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/local/repo/com/jd/saf-zookeeper-common/1.0.0-SNAPSHOT/saf-zookeeper-common-1.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/local/repo/com/jd/saf-zookeeper-common/1.0.0-SNAPSHOT/saf-zookeeper-common-1.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
